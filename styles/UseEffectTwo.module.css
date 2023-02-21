@@ -1,0 +1,46 @@
+.main {
+    font-family: var(--sansserif);
+    color: var(--cream);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background-image: url('/aurora.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    color: inherit;
+    font-size: var(--nav-font);
+    text-decoration: none;
+}
+
+.nav{
+    padding: 2rem;
+    background-color: var(--midblue);
+    width: 100vw;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin-top: 3em;
+    font-size: var(--body-font);
+}
+
+.number{
+    font-weight: 600;
+}
